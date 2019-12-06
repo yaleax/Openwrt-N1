@@ -164,6 +164,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-qbittorrent=y
           CONFIG_PACKAGE_UnblockNeteaseMusic=y
           CONFIG_PACKAGE_trojan=y
+          CONFIG_PACKAGE_openwrt-adguardhome-master=y
           EOF
 
           # LuCI主题:
@@ -171,6 +172,7 @@ jobs:
           CONFIG_PACKAGE_luci-theme-argon=y
           CONFIG_PACKAGE_luci-theme-rosy=y
           CONFIG_PACKAGE_luci-theme-atmaterial=y
+          CONFIG_PACKAGE_luci-app-adguardhome-master=y
           EOF
 
           # 常用软件包:
